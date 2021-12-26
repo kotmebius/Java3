@@ -1,0 +1,9 @@
+INFO  2021-12-26 23:24:34 [main] sample.server.MainServ (MainServ.java:30) - Сервер запущен!
+INFO  2021-12-26 23:25:06 [main] sample.server.MainServ (MainServ.java:33) - Клиент подключился!
+INFO  2021-12-26 23:32:55 [main] sample.server.MainServ (MainServ.java:30) - Сервер запущен!
+INFO  2021-12-26 23:33:15 [main] sample.server.MainServ (MainServ.java:33) - Клиент подключился!
+INFO  2021-12-26 23:34:17 [main] sample.server.MainServ (MainServ.java:33) - Клиент подключился!
+ERROR 2021-12-26 23:34:29 [pool-2-thread-1] sample.server.ClientHandler$1 (ClientHandler.java:112) - Connection reset
+INFO  2021-12-26 23:34:48 [main] sample.server.MainServ (MainServ.java:33) - Клиент подключился!
+ERROR 2021-12-26 23:34:58 [pool-2-thread-1] sample.server.ClientHandler$1 (ClientHandler.java:112) - Connection reset
+ERROR 2021-12-26 23:35:05 [pool-2-thread-2] sample.server.ClientHandler$1 (ClientHandler.java:112) - Connection reset
