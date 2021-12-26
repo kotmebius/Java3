@@ -1,0 +1,133 @@
+*{
+    lightThemeColor1: #655bb9;
+    lightThemeColor1: #000000;
+
+}
+
+.menu-button{
+    -fx-min-width: 70px;
+}
+.menu-item{
+    -fx-min-width: 70px;
+}
+.button{
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.lightTextArea {
+    -fx-border-color: #bcbabe;
+    -fx-highlight-fill: #b6aef9;
+    -fx-text-fill: #655bb9;
+    -fx-highlight-text-fill:#ffe5fe;
+}
+
+.lightTextArea .content{
+    -fx-background-image: url('../img/lightbackground.jpg');
+    -fx-background-size: stretch;
+}
+
+.lightTextArea .text {
+    background: #01181e;
+}
+
+.lightMenu{
+    -fx-background-color: #fef1e1;
+}
+.lightInputText{
+    -fx-background-color: #ffe5fe;
+    -fx-border-color: #655bb9;
+    -fx-control-inner-background: #ffe5fe;
+    -fx-highlight-fill: #b6aef9;
+    -fx-text-fill: #655bb9;
+    -fx-highlight-text-fill:#ffe5fe;
+}
+.lightButton{
+    -fx-background-color: #a1d6e2;
+    -fx-text-fill: #1995ad;
+    -fx-border-color: #1995ad;
+    -fx-background-image: url("../img/lightbackground.jpg");
+}
+.lightButton:hover{
+    -fx-background-color: #000000;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+}
+.lightBody{
+    -fx-background-color: #bcbabe;
+}
+
+
+.darkTextArea {
+    -fx-border-color: #000000;
+    -fx-highlight-fill: #8fd4ed;
+    -fx-text-fill: #8fd4ed;
+    -fx-highlight-text-fill:#01181e;
+    -fx-background-color: #000000;
+}
+
+.darkTextArea .content{
+    -fx-background-image: url('../img/darkbackground.jpg');
+    -fx-background-size: stretch;
+}
+.darkMenu{
+    -fx-background-color: #02070b;
+    -fx-text-fill: #ffffff;
+}
+.darkInputText{
+    -fx-background-color: #01181e;
+    -fx-border-color: #01181e;
+    -fx-control-inner-background: #01181e;
+    -fx-highlight-fill: #8fd4ed;
+    -fx-text-fill: #8fd4ed;
+    -fx-highlight-text-fill:#01181e;
+}
+.darkButton{
+    -fx-background-color: #a1d6e2;
+    -fx-text-fill: #026e9d;
+    -fx-border-color: #026e9d;
+    -fx-background-image: url("../img/darkbackground.jpg");
+}
+.darkBody{
+    -fx-background-color: #000000;
+    -fx-border-color: #000000;
+}
+
+
+.brightTextArea {
+    -fx-border-color: #ffe300;
+    -fx-highlight-fill: #34075c;
+    -fx-text-fill: #34075c;
+    -fx-highlight-text-fill:#000000;
+    -fx-background-color: #fecc4f;
+}
+
+.brightTextArea .content{
+    -fx-background-image: url('../img/brightbackground.jpg');
+    -fx-background-size: stretch;
+}
+
+.brightTextArea .text {
+    -fx-effect: dropshadow(gaussian, #fec27a, 10, 1, 0, 0);
+}
+
+.brightMenu{
+    -fx-background-color: #fecc4f;
+}
+.brightInputText{
+    -fx-background-color: #fecc4f;
+    -fx-border-color: #fecc4f;
+    -fx-control-inner-background: #fecc4f;
+    -fx-highlight-fill: #34075c;
+    -fx-text-fill: #34075c;
+    -fx-highlight-text-fill:#fecc4f;
+}
+.brightButton{
+    -fx-background-color: #5d01ce;
+    -fx-text-fill: #fecc4f;
+    -fx-border-color: #fecc4f;
+}
+.brightBody{
+    -fx-background-color: #fecc4f;
+    -fx-border-color: #fecc4f;
+}
